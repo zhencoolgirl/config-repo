@@ -15,4 +15,4 @@ eureka:
       defaultZone: http://root:123456@localhost:8761/eureka/,http://root:123456@localhost:8762/eureka/
 
 # 自定义配置
-name: order-service-test-2.0
+name: order-service-dev-2.0
