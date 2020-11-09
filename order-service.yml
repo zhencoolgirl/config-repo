@@ -43,4 +43,4 @@ feign:
 #          -
 
 # 自定义配置
-name: order-service-default-1.0
+name: order-service-default-2.0
