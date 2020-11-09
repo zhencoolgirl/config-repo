@@ -31,4 +31,4 @@ management:
         include: hystrix.stream
 
 # 自定义配置
-name: order-service-dev-zxz-1.0
+name: order-service-default
