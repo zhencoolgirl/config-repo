@@ -23,12 +23,24 @@ feign:
   httpclient:
     enabled: true   #开启 httpclient
 
-#度量指标监控与健康检查
+#度量指标监控与健康检查(hystrix)
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: hystrix.stream
+
+
+#度量指标监控与监控检查(refresh)
 management:
   endpoints:
     web:
+      base-path: /actuator  #访问端点根路径，默认/actuator
       exposure:
-        include: hystrix.stream
+        include:
+          - '*'         #需要开启的端点，这里主要用到的是 refresh 这个端点
+#        exclude:       #不需要开启的端点
+#          -
 
 # 自定义配置
 name: order-service-default-1.0
