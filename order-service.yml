@@ -31,14 +31,14 @@ feign:
 #         include: hystrix.stream
 
 
-#度量指标监控与监控检查(refresh)
-management:
-  endpoints:
-    web:
-      base-path: /actuator  #访问端点根路径，默认/actuator
-      exposure:
-        include:
-          - '*'         #需要开启的端点，这里主要用到的是 refresh 这个端点
+#度量指标监控与监控检查(refresh)不能bootstrap和这里的yml配置存在相同的配置,否则不起效
+# management:
+#   endpoints:
+#     web:
+#       base-path: /actuator  #访问端点根路径，默认/actuator
+#       exposure:
+#         include:
+#           - '*'         #需要开启的端点，这里主要用到的是 refresh 这个端点
 #        exclude:       #不需要开启的端点
 #          -
 
