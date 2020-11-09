@@ -1,9 +1,9 @@
 server:
-  port: 8888
+  port: 7777
 
 spring:
   application:
-    name: config-server
+    name: config-client
 
 #自定义配置
 name: config-client-default
