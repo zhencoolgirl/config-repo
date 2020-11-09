@@ -12,7 +12,7 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${server.port} # ip:port
   client:
     service-url:                  # 设置服务注册中心地址
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+      defaultZone: http://root:123456@localhost:8761/eureka/,http://root:123456@localhost:8762/eureka/
 
 # 自定义配置
 name: order-service-dev-2.0
