@@ -15,6 +15,6 @@ eureka:
       defaultZone: http://root:123456@localhost:8761/eureka/, http://root:123456@localhost:8762/eureka/
       
 #自定义属性
-name: product-service-default
+name: product-service-default-1.0
 #非对称加密示例
 password: '{cipher}AQAEvgIPW+YHY3AAzj7SB5JLMgzsLd+Zude1XQaXoPIB1IIlE8GhKHE7y4Q9NbA3KwLa8XFfnKhyYU0jtHzDtmEPFF10DR0zMZ+x0ws7VGSqNS8p58ptoCmephKn6t5MYSIbFSUMzfEeBifGGXIYiq7S0BfYAWejf/qj+TKSKojO+ozdfasYemVGB/F37jdYZvMgXa8udMBLfEPz5cGNLTH2LBg4/3MH2Y1e8wyqn0fJawFsJ9ubpiTtvfLOL7zca7WDTvv5Pvkn15qJPojTrbDBH9eGNK66NwD0ShEiVyO3dVacejpMS6CZXv2I2Ry+n5UtI7HeBuqVTJ/7zjyfKFcj5z6hfph7q/UmI9VnkufkWO0JbJ1+2DjGkbk3Os+i51g='
